@@ -2,16 +2,20 @@
 	"name": "eurlex",
 	"version": "0.2.3",
 	"description": "Retrieve documents from EUR-Lex and convert them to usable data",
-	"licenses": [{
-		"name": "EUPL",
-		"url": "http://joinup.ec.europa.eu/software/page/eupl/licence-eupl"
-	}],
+	"licenses": [
+		{
+			"name": "EUPL",
+			"url": "http://joinup.ec.europa.eu/software/page/eupl/licence-eupl"
+		}
+	],
 	"author": "Sebastian Vollnhals <sebastian@vollnhals.info>",
-	"maintainers": [{
-		"name": "Sebastian Vollnhals",
-		"email": "sebastian@vollnhals.info",
-		"web": "http://vollnhals.info/"
-	}],
+	"maintainers": [
+		{
+			"name": "Sebastian Vollnhals",
+			"email": "sebastian@vollnhals.info",
+			"web": "http://vollnhals.info/"
+		}
+	],
 	"homepage": "http://www.lobbyplag.eu/",
 	"preferGlobal": true,
 	"bin": {
@@ -25,7 +29,15 @@
 		"url": "http://github.com/lobbyplag/eurlex-js/issues",
 		"email": "eurlex-js@lobbyplag.eu"
 	},
-	"keywords": ["cli","eurlex","scraper","eu","european union","open data","lobbyplag"],
+	"keywords": [
+		"cli",
+		"eurlex",
+		"scraper",
+		"eu",
+		"european union",
+		"open data",
+		"lobbyplag"
+	],
 	"dependencies": {
 		"colors": ">= 0.6",
 		"optimist": ">= 0.3",
